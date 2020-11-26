@@ -1,0 +1,550 @@
+@font-face {
+  font-family: 'Post No Bills Jaffna';
+  src: url('../fonts/PostNoBillsJaffna-Bold.eot');
+  src: local('☺'), url('../fonts/PostNoBillsJaffna-Bold.woff') format('woff'), url('../fonts/PostNoBillsJaffna-Bold.ttf') format('truetype'), url('../fonts/PostNoBillsJaffna-Bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+a {
+  text-decoration: none;
+}
+.header__top-wrapper {
+  background-color: #000;
+}
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.header__top-left {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #969696;
+}
+.header__top-left img {
+  margin-right: 16px;
+}
+.header__top-left p {
+  margin: 0;
+}
+.header__top-right {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #969696;
+}
+.header__top-right img {
+  margin-right: 16px;
+}
+.header__top-right a {
+  margin: 0;
+  color: #969696;
+}
+.header__sub-wrapper {
+  background-color: #0F0F0F;
+}
+.header__sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+  padding-bottom: 16px;
+}
+.header__sub-left h2 {
+  margin: 0;
+  font-family: 'Post No Bills Jaffna';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+.header__sub-right a {
+  padding-top: 36px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+.header__sub-right a:hover {
+  background-color: #1F1F1F;
+}
+.section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 160px;
+  padding-bottom: 154px;
+  background-image: url('/img/section-title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section-title__logo {
+  border: 4px solid #fff;
+  margin-bottom: 80px;
+}
+.section-title__logo-wrapper {
+  padding: 93px 68px;
+}
+.section-title__logo-wrapper h1 {
+  margin: 0;
+  font-family: 'Post No Bills Jaffna';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 96px;
+  text-align: center;
+  color: #FFFFFF;
+  border-bottom: 2px solid #fff;
+}
+.section-title__logo-wrapper p {
+  margin: 0;
+  margin-top: 7px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section-title__desc {
+  max-width: 730px;
+}
+.section-title__desc p {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section-new-season {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000;
+}
+.section-new-season--left {
+  max-width: 1040px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.section-new-season--left hr {
+  color: #fff;
+  width: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.section-new-season--title {
+  margin: 0;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section-new-season--watch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.card {
+  margin-right: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.card:hover {
+  background-color: #404446;
+  opacity: 0.6;
+}
+.card img {
+  padding: 50px 15px;
+  background-color: #191B1C;
+}
+.card p {
+  margin: 0;
+  margin-top: 15px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.section-new-season--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-new-season--right img {
+  display: block;
+  position: relative;
+  max-width: 880px;
+  height: auto;
+}
+.section-new-season--right-desc {
+  position: absolute;
+  z-index: 9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-new-season--right-desc h3 {
+  margin: 0;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section-new-season--right-desc hr {
+  margin-top: 30px;
+  margin-bottom: 42px;
+  color: #fff;
+  width: 120px;
+}
+.section-new-season--right-desc a {
+  padding: 12px 28px;
+  border: 1px solid #fff;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+.section-new-season--right-desc a:hover {
+  background-color: rgba(255, 255, 255, 0.281);
+}
+.section-collection {
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section-collection--left img {
+  display: block;
+  position: relative;
+  max-width: 880px;
+  height: auto;
+}
+.section-collection--right {
+  width: 1040px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section-collection--right h2 {
+  margin: 0;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section-collection--right hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 120px;
+  color: #fff;
+}
+.section-collection--right p {
+  width: 470px;
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.section-collection--right a {
+  padding: 12px 28px;
+  border: 1px solid #fff;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+.section-collection--right a:hover {
+  background-color: rgba(255, 255, 255, 0.281);
+}
+.section-new-arrivals {
+  padding-top: 120px;
+  padding-bottom: 150px;
+  background-color: #000;
+}
+.section-new-arrivals__content h2 {
+  margin: 0;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section-new-arrivals__content hr {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 120px;
+  color: #fff;
+}
+.section-new-arrivals__watch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.section-new-arrivals__watch .card {
+  margin-right: 23px;
+  margin-bottom: 40px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.section-new-arrivals__watch .card:hover {
+  background-color: #404446;
+  opacity: 0.6;
+}
+.section-our-brands {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #0F0F0F;
+}
+.section-our-brands__content h2 {
+  margin: 0;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section-our-brands__content hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 120px;
+}
+.section-our-brands__content img {
+  margin-right: 15px;
+}
+.section-our-brands__content img:last-child {
+  margin-right: 0;
+}
+.footer {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-image: url('/img/footer-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__about-us {
+  max-width: 50%;
+}
+.footer__about-us h3 {
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer__about-us p {
+  margin: 0;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.footer__mailing {
+  max-width: 50%;
+}
+.footer__mailing h3 {
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer__mailing p {
+  margin: 0;
+  margin-bottom: 37px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.footer__mailing-form input {
+  width: 210px;
+  height: 42px;
+  padding-left: 15px;
+  background: rgba(255, 255, 255, 0.4);
+  color: #fff;
+  outline: none;
+}
+.footer__mailing-form input::-webkit-input-placeholder {
+  color: #fff;
+}
+.footer__mailing-form button {
+  padding: 10px 20px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  background-color: #000;
+  outline: none;
+  border: none;
+}
